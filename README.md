@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="move.it" title="move.it" src="public/logo-full.svg" />
+  <img alt="move.it" title="move.it" src="./moveit-next/public/logo-full.svg" />
 </h1>
 
 <p align="center">
@@ -33,8 +33,8 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src="public/tela.png" width="100%">
-  <img alt="Happy" src="public/tela2.png" width="100%">
+  <img alt="Happy" src="./moveit-next/public/tela.png" width="100%">
+  <img alt="Happy" src="./moveit-next/public/tela2.png" width="100%">
 </p>
 
 <br>
