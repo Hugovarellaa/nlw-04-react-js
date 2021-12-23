@@ -55,6 +55,26 @@
   transition: background-color 0.2s;
 }
 
-.buttonStart:hover {
+.buttonStart:not([disabled]):hover {
   background-color: var(--blue-dark);
+}
+
+.buttonStartActive {
+  background: var(--white);
+  color: var(--title);
+}
+.buttonStartActive:not([disabled]):hover {
+  background: var(--red);
+  color: var(--text);
+}
+
+.buttonStart:disabled {
+  background: var(--white);
+  color: var(--text);
+  cursor: not-allowed;
+  border-bottom: 4px solid var(--green);
+}
+
+.buttonStart > img {
+  margin-left: 0.5rem;
 }
